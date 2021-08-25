@@ -56,3 +56,27 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 }
+.navigation{
+  width: 100%;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+}
+.navigation ul {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  list-style:none ;
+  align-items: center;
+  margin-top: 10px;
+
+}
+.navigation ul li h3 {
+ color: white;
+ font-weight: bold;
+ cursor: pointer;
+}
+.navigation ul li :hover {
+  color:turquoise;
+  
+ }

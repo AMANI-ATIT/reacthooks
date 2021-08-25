@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactStars from "react-rating-stars-component";
 import {Card} from "react-bootstrap"
+import {Link} from 'react-router-dom'
 
 const MovieCard = ({Movie}) => {
     return (
@@ -19,6 +20,11 @@ const MovieCard = ({Movie}) => {
     size={24}
     activeColor="#ffd700"
   />  </Card.Body>
+  <button><Link 
+  to={{
+    pathname: "/trailer",
+    Movie,
+  }}> see more..</Link> </button>
 </Card>       
  </div>
     );
